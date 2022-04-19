@@ -1,0 +1,81 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 5px 25px;
+    color: #ebebeb;
+    text-shadow: 2px 2px 5px #222;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #222;
+    background-color: var(--accent-shadow);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: #ebebeb;
+    text-shadow: 0px 0px 2px #222;
+}
+
+.main-text span {
+    background: linear-gradient(to right, var(--accent-color), var(--secondary-color), var(--terciary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ebebeb;
+}
+
+.saiba-mais {
+    background-color: var(--terciary-shadow);
+    font-size: 1.1rem;
+    padding: 7px 7px;
+    margin-top: 10px;
+    color: #ebebeb;
+    text-shadow: 0px 0px 5px #222;
+    border-radius: 5px;
+    transition: 400ms ease;
+}
+
+.saiba-mais:hover {
+    background-color: var(--terciary-color);
+    transform: scale(1.1);
+}
+
+.main-img {
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s ease;
+    margin: 10px 0;
+    height: 360px;
+}
+
+.main-img:hover {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50%;
+}

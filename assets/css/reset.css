@@ -1,0 +1,15 @@
+:root {
+    --accent-color: #9038E8;
+    --accent-shadow: #59169C;
+    --secondary-color: #E8AB4F;
+    --terciary-color: #20E862;
+    --terciary-shadow: #1E9C47;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}

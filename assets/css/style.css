@@ -1,0 +1,15 @@
+body {
+    font-family: 'lato', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top, #000, #000E 30%, #0009 50%, #0000), 
+                url(../img/bg-jack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
